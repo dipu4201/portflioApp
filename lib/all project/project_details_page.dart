@@ -19,7 +19,7 @@ class ProjectDetailsPage extends StatelessWidget {
           children: [
             Container(
               width: double.infinity,
-              height: 200, // Set a fixed height for the image container
+              height: 200, 
               child: Image.asset(
                 project.image,
                 fit: BoxFit.cover,
